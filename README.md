@@ -1,5 +1,5 @@
-Desafio Rockeseat para treinar temas abordados em aula sobre os fundamentos de NODE.JS
-
+**Desafio Rockeseat para treinar temas abordados em aula sobre os fundamentos de NODE.JS
+**
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
