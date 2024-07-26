@@ -1,0 +1,16 @@
+{
+  "name": "desafio-ignite-node",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Joelson Lopes",
+  "license": "ISC",
+  "description": "Desafio referente ao módulo: Fundamentos do Node.js",
+  "dependencies": {
+    "csv": "^6.3.9"
+  }
+}
