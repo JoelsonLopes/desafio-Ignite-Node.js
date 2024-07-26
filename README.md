@@ -1,5 +1,36 @@
 Desafio Rockeseat para treinar temas abordados em aula sobre os fundamentos de NODE.JS
 
+## Instalação
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+
+### 🎲 Rodando o Back End (servidor)
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/JoelsonLopes/desafio-Ignite-Node.js
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd desafio-ignite-node.js
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# Para executar a criação das tasks por CSV execute
+$ node --watch streams/import-csv.js
+
+# O servidor iniciará na porta 3335 - acesse <http://localhost:3335>
+```
+
+## Tecnologias
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,js)](https://skillicons.dev)
+
+
 ## Sobre o desafio
 
 Nesse desafio você desenvolverá uma API para realizar o CRUD de suas *tasks* (tarefas).
@@ -59,4 +90,7 @@ Rotas:
     Deve ser possível marcar a task como completa ou não. Isso significa que se a task estiver concluída, deve voltar ao seu estado “normal”.
     
     Antes da alteração, deve ser feito uma validação se o `id` pertence a uma task salva no banco de dados.
-    
+
+---
+
+### "A jornada do aprendizado nunca termina. Continue sempre explorando, experimentando e evoluindo.🚀"
